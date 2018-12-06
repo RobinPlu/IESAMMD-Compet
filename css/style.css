@@ -1,12 +1,12 @@
 @font-face {
   font-family: Brother;
-  src: url('font/TipoType\ -\ Brother-1816-Regular.otf');
+  src: url('font/TipoType_Brother-1816-Regular.otf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Brother;
-  src: url('font/TipoType\ -\ Brother-1816-Bold.otf');
+  src: url('font/TipoType_Brother-1816-Bold.otf');
   font-weight: bold;
 }
 
@@ -25,7 +25,6 @@ body {
   font-weight: normal;
   margin: 0;
   line-height: 1.5;
-  /*min-width: 960px;*/
   box-sizing: border-box;
 
 }
@@ -87,6 +86,13 @@ ul > li > a {
   text-decoration: none;
   color: #272727;
   
+}
+
+nav > ul > li > a:hover {
+    color: #c79460;
+    border-bottom: 2px solid #c79460;
+    padding-bottom: 20px;
+    transition: 0.5s;
 }
 
 ul > li > a:visited {
@@ -175,26 +181,42 @@ ul > li > a:visited {
   margin-bottom: 2rem;
 }
 
-.bouton-scroll-down{
-  bottom: 70px;
-  position: absolute;
-  height: 10px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
+.scroll-downs {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    left: 0;
+    margin: auto;
+    width :25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.icon-scroll-down{
-  width: 40px;
-  animation: scroll 5s infinite;
-  }
-
-  @keyframes scroll{
-      0%{}
-      50%{margin-top: 10px;}
-  }
-
+.mousey {
+    width: 3px;
+    padding: 1px 8px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+.scroller {
+    width: 4px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: black;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    50% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(25px); opacity: 0.5;}
+}
 
 .wrap-inner {
   max-width: 1024px;
@@ -779,8 +801,8 @@ nav {
 /* BURGER MENU */ 
 
 .logo-mobile svg {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
 }
 
 .menu-mobile {
@@ -806,6 +828,7 @@ nav {
   padding: 0 4em 0 4em;
   background: #f5f5f4;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    box-shadow: 0px 12px 36px 0 rgba(57, 57, 57, 0.6);
 }
 
 .active {

@@ -9,4 +9,16 @@ $('#checkbox').click(function(event) {
 
 var images = ['fond-1-min.jpg', 'fond-2-min.jpg', 'fond-3-min.jpg'];
 $('.coverPage').css({'background-image': 'url(image/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+    $(function(){
+        $(".moreBox").slice(0, 3).show().addClass('moreBoxDisplay'); // select the first three
+        $("#loadMore").click(function(e){ // click event for load more
+            e.preventDefault();
+            $(".moreBox:hidden").slice(0, 4).show().addClass('moreBoxDisplay').slideDown(); // select next 4 hidden divs and show them
+            if($(".moreBox:hidden").length == 0){ // check if any hidden divs still exist
+                $("#loadMore").addClass('loadMoreDisplay'); // alert if there are none left
+            }
+        });
+    });
+
 });

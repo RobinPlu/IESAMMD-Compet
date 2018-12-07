@@ -975,7 +975,18 @@ nav {
     .innerFilters {
         padding: 0 1em !important;
     }
-
+    .btnLoad {
+      display: block !important;
+    }
+  .moreBox {
+    display: none;
+  }
+  .moreBoxDisplay {
+    display: grid !important;
+  }
+  .loadMoreDisplay {
+    display: none !important;
+  }
 
 }
 .productHead {
@@ -1027,3 +1038,8 @@ nav {
     width: 12px;
     background-color: #c79460;
 }
+
+.btnLoad {
+  display: none;
+}
+

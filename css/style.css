@@ -170,9 +170,8 @@ ul > li > a:visited {
 }
 
 .coverGroup {
-  max-width: 500px;
+  width: 1280px;
   margin: 0 4em;
-  padding: 150px 50px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -198,6 +197,7 @@ ul > li > a:visited {
 
 .coverGroup p {
   margin-bottom: 2rem;
+  max-width: 500px;
 }
 
 .scroll-downs {
@@ -735,7 +735,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 3em 4em; 
+  padding: 3em 4em;
   background-color: #272727;
   align-items: center;
 
@@ -750,6 +750,7 @@ footer > a > svg {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 0 3rem 0 0;
  
 }
 
@@ -986,6 +987,20 @@ nav {
     .btnLoad {
       display: block !important;
     }
+    .topSection-profile {
+      flex-direction: column !important;
+    }
+    .split-profile {
+      width: 100% !important;
+    height: 400px!important;
+    }
+    .right-split {
+      height: 700px !important;
+    }
+
+    .profileDesc {
+      margin: 2em 3em !important;
+    }
   .moreBox {
     display: none;
   }
@@ -1110,4 +1125,33 @@ nav {
 }
 .pPrice-min {
   font-size: 13px;
+}
+
+.profileDesc {
+  margin: 2em 5em;
+  text-align: center;
+}
+
+.profileCara {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em 0;
+}
+
+.profileCara h2 {
+  font-family: "Brother";
+  font-weight: bold;
+  font-size: 24px;
+}
+.pCara-content h6 {
+  font-weight: bold;
+  margin: 2em 5em;
+}
+
+.profileGauge {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0 ;
+
 }

@@ -5,7 +5,8 @@
     <title>Elite</title>
     <link type="text/css" href="../css/reset.css" rel="stylesheet">
     <link type="text/css" href="../css/style.css" rel="stylesheet">
-    <link type="text/css" href="../css/fullpage.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../css/slick-theme.css" />
     <link rel="shortcut icon" href="../image/favicon.ico">
     <link rel="icon" href="../image/favicon.png">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -185,6 +186,7 @@
         <span class="divider"></span>
         <p class="profilePrice"><span class="pPrice-min">à partir de</span><br/>150€/jour </p>
         <p class="profileDesc">Caroline est un de nos profils phares, louée par plus de 15 entreprises depuis la création d’Elite, elle saura se faire si discrète que vous l’oublierez sûrement mais elle saura également faire l’éloge de votre entreprise si besoin.</p>
+        <a class="btnPrim" href="#">Ajouter au panier</a>
     </div>
 </section>
     <section id="fullpage" class="profileCara">
@@ -196,7 +198,7 @@
             <div class="profileGauge">
                 <div class="pG-left pG-contain">
                     <h6>Pourcentage du handicap</h6>
-                    <?xml version="1.0" encoding="UTF-8"?>
+
                     <svg width="309px" height="30px" viewBox="0 0 309 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
                         <title>Group 4</title>
@@ -252,29 +254,81 @@
             <div class="pCara-Title">
                 <h2>Caractéristiques techniques</h2>
             </div>
-            <div class="profileGraph pG-contain">
+            <div class="profileGraph profileDetails-contain">
                 <h6>Productivité au cours de la journée</h6>
-                <img src="../image/graphiqueDesk.png" alt="graphique productivité">
+                <img src="../image/graphiqueDesk.png" alt="graphique productivité" class="graphDesk">
+                <img src="../image/graphique01-mobile.png" alt="graph mobile" class="graphMob">
                 <div class="profileDetails-top">
-                    <div class="locomotion pG-contain">
+                    <div class="locomotion profileDetails-contain">
                         <h6>Locomotion</h6>
+                        <div class="profile-label">
+                            <p>classique</p>
+                            <p>assisté</p>
+                            <p>véhiculé</p>
+                        </div>
                     </div>
-                    <div class="avantages pG-contain">
+                    <div class="avantages profileDetails-contain">
                         <h6>Avantages</h6>
+                        <p>Pic de productivité important en début d’après-midi suite à la prise du traitement.</p>
                     </div>
                 </div>
                 <div class="profileDetails-bot">
-                    <div class="autonomie pG-contain">
+                    <div class="autonomie profileDetails-contain">
                         <h6>Autonomie</h6>
+                        <div class="autonomie-content">
+                            <div class="workTime-profile">
+                                <p>Temps de travail sans pause </p>
+                                <span class="subLine-workTime"></span>
+                                <p>2h15</p>
+
+                            </div>
+                            <div class="autonomie-profile">
+                                <p>Autonomie dans les locaux</p>
+                                <span class="subLine-autonomie"></span>
+                                <div>
+                                    <img src="../image/handicap-full.svg">
+                                    <img src="../image/handicap-full.svg">
+                                    <img src="../image/handicap-empty.svg">
+                                    <img src="../image/handicap-empty.svg">
+                                    <img src="../image/handicap-empty.svg">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tips pG-contain">
+                    <div class="tips profileDetails-contain">
                         <h6>Tips et recommandation</h6>
+                        <p>N’hésitez pas à lui donner un café avec son traitement pour booster sa réactivité !</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="slide pCara-content">
-
+            <div class="pCara-Title">
+                <h2>Avis</h2>
+            </div>
+            <div class="avisContainer">
+                <p class="avisName">Edouard L.</p>
+                <div class="avisStars">
+                    <img src="../image/star-full.svg" alt="star full">
+                    <img src="../image/star-full.svg" alt="star full">
+                    <img src="../image/star-full.svg" alt="star full">
+                    <img src="../image/star-full.svg" alt="star full">
+                    <img src="../image/star-full.svg" alt="star full">
+                </div>
+                <p class="comment">J’ai loué Caroline dernièrement, très performant, je suis très content du service effectué. La qualité est incroyable, je recommande.</p>
+            </div>
+            <div class="avisContainer">
+                <p class="avisName">Sonia C.</p>
+                <div class="avisStars">
+                    <img src="../image/star-full.svg" alt="star full">
+                    <img src="../image/star-full.svg" alt="star full">
+                    <img src="../image/star-full.svg" alt="star full">
+                    <img src="../image/star-full.svg" alt="star full">
+                    <img src="../image/star-full.svg" alt="star full">
+                </div>
+                <p class="comment">Non seulement Caroline est facile à mettre en place, mais la qualité de sa prestation est au top.
+                    C'est facile et agréable de s'en servir. A recommander.</p>
+            </div>
         </div>
 
     </section>
@@ -382,9 +436,9 @@
 </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="../js/script.js"></script>
-<script src="../js/fullpage.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+<script src="../js/script.js" type="text/javascript"></script>
+<script src="../js/slick.js" type="text/javascript"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130182997-1"></script>
 <script>

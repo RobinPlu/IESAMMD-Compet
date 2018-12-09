@@ -1,18 +1,18 @@
 @font-face {
   font-family: Brother;
-  src: url('font/TipoType_Brother-1816-Regular.otf');
+  src: url('fonts/TipoType_Brother-1816-Regular.otf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Brother;
-  src: url('font/TipoType_Brother-1816-Bold.otf');
+  src: url('fonts/TipoType_Brother-1816-Bold.otf');
   font-weight: bold;
 }
 
 @font-face {
   font-family: Butler;
-  src: url('font/Butler_Medium.otf');
+  src: url('fonts/Butler_Medium.otf');
   font-weight: 600;
 }
 
@@ -977,7 +977,7 @@ nav {
         grid-template-columns: repeat(2,1fr);
     }
   .pG-contain {
-    margin: 2em 3em !important;
+    margin: 2em 2em !important;
   }
 }
 
@@ -1177,4 +1177,171 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.profile-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-label p {
+    margin: 0 2rem 0 0;
+    padding: 0.2rem 1rem;
+    border: 1px solid #c79460;
+    border-radius: 6px;
+    color: #c79460;
+    transition: .2s ease-out;
+}
+.profileDetails-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 2em 5em;
+}
+.profile-label p:hover {
+    background: #c79460;
+    color: #f5f5f4;
+}
+
+.avantages, .autonomie, .tips{
+    max-width: 385px;
+}
+
+.workTime-profile {
+    margin-bottom: 1em;
+}
+.autonomie-profile, .workTime-profile {
+    display: flex;
+    width: 385px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subLine-autonomie {
+    width: 80px;
+    border-bottom: 1px solid #272727;
+
+}
+
+.subLine-workTime {
+    width: 140px;
+    border-bottom: 1px solid #272727;
+}
+
+.avisContainer {
+    margin: 2em 0;
+    padding: 0 2em;
+    max-width: 800px;
+  position: relative;
+}
+
+.avisContainer::before {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background: #F0563B;
+  position: absolute;
+  left: -2em;
+}
+
+.avisName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+
+.avisStars {
+  margin-bottom: 0.8rem;
+}
+.graphDesk {
+  width: 100%;
+}
+
+.graphMob {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .profileGauge {
+    flex-direction: column !important;
+  }
+  .profileDetails-top, .profileDetails-bot {
+    flex-direction: column !important;
+  }
+  .profileDetails-contain{
+    margin: 2em 2em !important;
+  }
+
+  .avantages p, .autonomie p, .tips p {
+    text-align: left;
+  }
+  .subLine-autonomie, .subLine-workTime {
+    display: none;
+  }
+  .workTime-profile, .autonomie-profile {
+    width: 100% !important;
+  }
+  .autonomie-profile div {
+    display: flex;
+  }
+  .avisStars {
+    display: flex;
+  }
+  .avisContainer p, .pCara-Title h2 {
+    text-align: left !important;
+  }
+  .pCara-Title {
+    align-items: baseline;
+    margin: 0 2em;
+  }
+  .profile-label p {
+    margin: 0 1rem 0 0;
+    padding: 0.2rem .5rem;
+  }
+  .avisContainer::before {
+    display: none;
+  }
+  #fullpage {
+    margin-right: 0;
+  }
+  .slide-track {
+    margin-right: 0 !important;
+  }
+  .slick-initialized {
+    overflow: hidden;
+  }
+
+  .slick-dots {
+    bottom: -10px!important;
+  }
+  .slick-dots li button {
+    display: inline-block !important;
+  }
+  .slick-dots li button::before{
+    color: transparent !important;
+  }
+  .slick-dots li {
+    width: 12px !important;
+    height: 12px!important;
+    border: 1px solid #c79460;
+    border-radius: 100%;
+  }
+
+  .slick-dots .slick-active {
+    width: 12px !important;
+    height: 12px!important;
+    background-color: #c79460;
+    border-radius: 100%;
+  }
+  .right-split {
+    background: #f5f5f4;
+  }
+  .graphDesk {
+    display: none !important;
+  }
+
+  .graphMob {
+    display: block;
+  }
+
 }

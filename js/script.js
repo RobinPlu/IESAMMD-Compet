@@ -21,4 +21,15 @@ $('.coverPage').css({'background-image': 'url(image/' + images[Math.floor(Math.r
         });
     });
 
+    if (window.matchMedia("(max-width: 768px)").matches) {
+        /* the viewport is less than 768 pixels wide */
+        $('#fullpage').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+        });
+    }
+
 });

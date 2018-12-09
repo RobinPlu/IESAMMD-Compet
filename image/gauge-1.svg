@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="309px" height="30px" viewBox="0 0 309 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wireframe-Mobile-FicheProduit-1" transform="translate(-52.000000, -1105.000000)">
+            <g id="Group-4" transform="translate(52.000000, 1105.000000)">
+                <rect id="Rectangle" fill="#F5F5F4" fill-rule="nonzero" x="0" y="0" width="309" height="16"></rect>
+                <rect id="Rectangle" fill="#C79460" fill-rule="nonzero" x="0" y="0" width="230" height="16"></rect>
+                <text id="0%" font-family="Brother" font-size="12" font-weight="300" fill="#272727">
+                    <tspan x="0" y="29">0%</tspan>
+                </text>
+                <text id="100%" font-family="Brother" font-size="12" font-weight="300" fill="#272727">
+                    <tspan x="279.612" y="29">100%</tspan>
+                </text>
+                <text id="80%" font-family="Brother" font-size="12" font-weight="300" fill="#272727">
+                    <tspan x="218.374" y="29">80%</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

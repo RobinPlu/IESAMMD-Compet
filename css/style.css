@@ -699,6 +699,10 @@ ul > li > a:visited {
     align-content: center !important;
     align-items: center !important;
   }
+
+  .f-link {
+    margin: 0 !important;
+  }
   .f-concept, .f-contact {
     margin: 2em 0 !important;
   }
@@ -847,7 +851,6 @@ nav {
   display: none;
   width: 100%;
   top: 62px;
-  padding: 0 4em 0 4em;
   background: #f5f5f4;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     box-shadow: 0 24px 36px 0 rgba(57, 57, 57, 0.6);

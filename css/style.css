@@ -394,7 +394,7 @@ ul > li > a:visited {
   overflow: hidden;
     cursor: pointer;
 }
-.card img { 
+.card img {
   position: absolute;
   top: 0;
   left: -20px;
@@ -707,6 +707,9 @@ ul > li > a:visited {
     margin: 2em 0 !important;
   }
 
+  .about-content {
+    text-align: left !important;
+  }
 
 
 
@@ -1015,7 +1018,9 @@ nav {
   .loadMoreDisplay {
     display: none !important;
   }
-
+  .teamAbout h2 {
+    text-align: left !important;
+  }
 }
 .productHead {
     margin-top: 64px;
@@ -1345,6 +1350,21 @@ nav {
     display: block;
   }
 
+  .cardGroup-about {
+    margin: 0 2em 3em;
+  }
+
+  .about-content h1, .about-content h2, .about-content p {
+    text-align: left !important;
+  }
+  .about-content h1 {
+    font-size: 24px;
+  }
+  .about-content h2 {
+    font-size: 22px;
+  }
+
+
 }
 
 .coverAbout {
@@ -1366,12 +1386,11 @@ nav {
     background: #c79460;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .teamAbout h2 {
     color: #f5f5f4;
-    padding: 3em 0 2em 0;
+    padding: 2em 0 2em 0;
 }
 .cardGroup-about {
     display: grid;
@@ -1380,8 +1399,70 @@ nav {
             repeat(4, 1fr);
     grid-template-rows: minmax(300px, 2fr);
     justify-items: center;
-    /*overflow-x: scroll;*/
+    overflow-x: scroll;
     position: relative;
+}
 
-    margin: 0 3em 3em;
+.card-about {
+  width: 200px;
+  height: 223px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.card-about img {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  height: 100%;
+  z-index: 0;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+  background-position: center;
+  background-size: cover;
+}
+.card-1 {
+  background-image: url('../image/christophe-tevard-min.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card-2 {
+  background-image: url('../image/collegue-2-min.jpg');
+}
+.card-3 {
+  background-image: url('../image/collegue-3-min.jpg');
+}
+.card-4 {
+  background-image: url('../image/collegue-4-min.png');
+}
+
+.card-1 p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f5f5f4;
+}
+.cardHover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: none;
+}
+
+.card-1 span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.card-1:hover > .cardHover {
+  display: flex;
 }

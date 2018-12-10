@@ -707,15 +707,14 @@ ul > li > a:visited {
     margin: 2em 0 !important;
   }
 
-  .cardGroup {
-    grid-gap: 24px !important;
-  }
 
 
-  .cardGroup {
+
+  .cardGroup, cardGroup-about {
     width: 100vw !important;
     left: calc(-50vw + 50%) !important;
     position: relative !important;
+      grid-gap: 24px !important;
   }
   .cardShadow-inset {
     left: 0;
@@ -1347,4 +1346,43 @@ nav {
     display: block;
   }
 
+}
+
+.coverAbout {
+    min-height: 100vh;
+    background-image: url("../image/coffee.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.coverGroup h2 {
+    font-family: "Brother";
+    font-weight: bold;
+    margin: 0 0 1em 0;
+}
+.teamAbout {
+    background: #c79460;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamAbout h2 {
+    color: #f5f5f4;
+    padding: 3em 0 2em 0;
+}
+.cardGroup-about {
+    display: grid;
+    grid-gap: 48px;
+    grid-template-columns:
+            repeat(4, 1fr);
+    grid-template-rows: minmax(300px, 2fr);
+    justify-items: center;
+    /*overflow-x: scroll;*/
+    position: relative;
+
+    margin: 0 3em 3em;
 }

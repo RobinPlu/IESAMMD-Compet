@@ -393,6 +393,7 @@ ul > li > a:visited {
   position: relative;
   overflow: hidden;
     cursor: pointer;
+  transition: 0.8s cubic-bezier(.2,.8,.2,1);
 }
 .card img {
   position: absolute;
@@ -1442,6 +1443,9 @@ nav {
   background-image: url('../image/collegue-4-min.png');
 }
 
+.cardLink:hover > .card {
+  transform: translateY(3px);
+}
 .card-1 p {
   font-size: 18px;
   font-weight: bold;

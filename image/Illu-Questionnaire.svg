@@ -1,0 +1,45 @@
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Illu-Questionnaire</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="40" y="199" width="403" height="127"></rect>
+        <filter x="-5.2%" y="-11.8%" width="110.4%" height="133.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.181329257 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M10.5,8.37867966 L2.56066017,0.439339828 C1.97487373,-0.146446609 1.02512627,-0.146446609 0.439339828,0.439339828 C-0.146446609,1.02512627 -0.146446609,1.97487373 0.439339828,2.56066017 L9.43933983,11.5606602 C10.0251263,12.1464466 10.9748737,12.1464466 11.5606602,11.5606602 L20.5606602,2.56066017 C21.1464466,1.97487373 21.1464466,1.02512627 20.5606602,0.439339828 C19.9748737,-0.146446609 19.0251263,-0.146446609 18.4393398,0.439339828 L10.5,8.37867966 Z" id="path-3"></path>
+    </defs>
+    <g id="Illu-Questionnaire" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(58.000000, 60.000000)">
+            <ellipse id="Oval" fill="#BABABA" fill-rule="nonzero" opacity="0.0945638021" cx="242.5" cy="240" rx="242.5" ry="240"></ellipse>
+            <ellipse id="Oval" fill="#BABABA" fill-rule="nonzero" opacity="0.142252604" cx="243" cy="240" rx="202" ry="200"></ellipse>
+            <ellipse id="Oval" fill="#BABABA" fill-rule="nonzero" opacity="0.126999628" cx="242.5" cy="240.5" rx="162.5" ry="160.5"></ellipse>
+            <g id="Rectangle" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <rect stroke="#C79460" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="40.5" y="199.5" width="402" height="126"></rect>
+            </g>
+            <rect id="Rectangle" stroke="#C79460" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="41" y="143" width="401" height="63" rx="3"></rect>
+            <rect id="Rectangle" fill="#C79460" fill-rule="nonzero" x="377" y="142" width="65" height="65" rx="3"></rect>
+            <g id="Shape-2" transform="translate(399.000000, 169.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-3"></use>
+            </g>
+            <text id="Handicap-visible" font-family="Brother-1816-Book, Brother 1816" font-size="20" font-weight="300" fill="#252424">
+                <tspan x="64" y="183">Handicap visible</tspan>
+            </text>
+            <rect id="Rectangle" fill="#C79460" fill-rule="nonzero" opacity="0.796456473" x="41" y="205" width="401" height="62"></rect>
+            <text id="Handicap-invisible" opacity="0.803059896" font-family="Brother-1816-Book, Brother 1816" font-size="20" font-weight="300" fill="#FFFFFF">
+                <tspan x="64" y="245">Handicap invisible</tspan>
+            </text>
+            <text id="Peu-importe" opacity="0.803059896" font-family="Brother-1816-Book, Brother 1816" font-size="20" font-weight="300" fill="#252424">
+                <tspan x="64" y="305">Peu importe</tspan>
+            </text>
+            <path d="M42,266.5 L441,266.5" id="Line" stroke="#C79460" opacity="0.51" stroke-linecap="square" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

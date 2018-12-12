@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="934px" height="220px" viewBox="0 0 934 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>graphdesk3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.791723%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C79460" stop-opacity="0.560829937" offset="0%"></stop>
+            <stop stop-color="#C79460" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-6" transform="translate(-61.000000, -111.000000)">
+            <g id="graphdesk3" transform="translate(65.000000, 111.000000)">
+                <g id="Group">
+                    <path d="M1,188.751349 C86.1887509,169.668946 158.714037,166.05781 218.575857,177.91794 C308.368588,195.708134 372.759765,90.7499254 473.165558,133 C573.571351,175.250075 682.305916,-101.485626 743.609631,41.3868994 C804.913345,184.259424 914,155.335879 915,177.91794 C915.666667,192.972647 916,200.666667 916,201 L1,201 L1,188.751349 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.298967634"></path>
+                    <path id="Line-4-Copy" d="M465,-254.773318 L465,664.5 L465,665 L464,665 L464,664.5 L464,-254.773318 L460,-254.773318 L464.5,-263.773318 L469,-254.773318 L465,-254.773318 Z" fill="#272727" fill-rule="nonzero"></path>
+                    <text id="18h" font-family="Brother" font-size="16" font-weight="300" fill="#272727">
+                        <tspan x="904.32" y="219">18h</tspan>
+                    </text>
+                </g>
+                <path id="Line-4" d="M1.5,10 L1.5,200.5 L1.5,201 L0.5,201 L0.5,200.5 L0.5,10 L-3.5,10 L1,1 L5.5,10 L1.5,10 Z" fill="#272727" fill-rule="nonzero"></path>
+                <text id="8h" font-family="Brother" font-size="16" font-weight="300" fill="#272727">
+                    <tspan x="0" y="219">8h</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

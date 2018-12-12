@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="934px" height="267px" viewBox="0 0 934 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>graphdesk1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.791723%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C79460" stop-opacity="0.560829937" offset="0%"></stop>
+            <stop stop-color="#C79460" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-60.000000, -64.000000)">
+            <g id="graphdesk1" transform="translate(64.000000, 64.000000)">
+                <path d="M1,136 C71.038852,45.6240778 136.795137,0.436116759 198.268854,0.436116759 C239.521739,0.436116759 280.427365,36.3751312 321.296444,76.096588 C371.780038,125.162581 407.603558,201.826733 473.165558,180 C627.520184,128.612653 590.306499,209 718.842453,209 C804.533089,209 870.252272,192.666667 916,160 L916,248 L1,248 L1,136 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.298967634"></path>
+                <path id="Line-4" d="M1.5,57 L1.5,247.5 L1.5,248 L0.5,248 L0.5,247.5 L0.5,57 L-3.5,57 L1,48 L5.5,57 L1.5,57 Z" fill="#272727" fill-rule="nonzero"></path>
+                <path id="Line-4-Copy" d="M465,-207.773318 L465,711.5 L465,712 L464,712 L464,711.5 L464,-207.773318 L460,-207.773318 L464.5,-216.773318 L469,-207.773318 L465,-207.773318 Z" fill="#272727" fill-rule="nonzero"></path>
+                <text id="8h" font-family="Brother" font-size="16" font-weight="300" fill="#272727">
+                    <tspan x="0" y="266">8h</tspan>
+                </text>
+                <text id="18h" font-family="Brother" font-size="16" font-weight="300" fill="#272727">
+                    <tspan x="904.32" y="266">18h</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

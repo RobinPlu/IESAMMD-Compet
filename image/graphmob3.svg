@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="317px" height="220px" viewBox="0 0 317 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>graphmob3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.791723%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C79460" stop-opacity="0.560829937" offset="0%"></stop>
+            <stop stop-color="#C79460" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-13" transform="translate(-370.000000, -112.000000)">
+            <g id="graphmob3" transform="translate(374.000000, 112.000000)">
+                <path d="M1,188.701862 C29.9548651,169.61946 54.605536,166.008324 74.9520127,177.868453 C105.471728,195.658647 127.357691,90.700439 161.484687,132.950514 C195.611683,175.200588 232.569552,-101.535112 253.406115,41.3374129 C274.242678,184.209938 311.320219,155.286393 311.660109,177.868453 C311.886703,192.92316 312,200.61718 312,200.950514 L1,200.950514 L1,188.701862 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.298967634"></path>
+                <g id="Group-2" transform="translate(0.000000, 1.000000)" fill="#272727">
+                    <g id="Group-7" fill-rule="nonzero">
+                        <path id="Line-4" d="M1.41470588,9 L1.41470588,199.5 L1.41470588,200 L0.414705882,200 L0.414705882,199.5 L0.414705882,9 L-3.58529412,9 L0.914705882,-2.7000624e-13 L5.41470588,9 L1.41470588,9 Z"></path>
+                        <path id="Line-4-Copy" d="M156.999999,52 L156.999999,354.585294 L156.999999,355.085294 L155.999999,355.085294 L155.999999,354.585294 L155.999999,52 L151.999999,52 L156.499999,43 L160.999999,52 L156.999999,52 Z"></path>
+                    </g>
+                    <text id="8h" font-family="Brother" font-size="16" font-weight="300">
+                        <tspan x="10" y="218">8h</tspan>
+                    </text>
+                    <text id="18h" font-family="Brother" font-size="16" font-weight="300">
+                        <tspan x="286.32" y="216">18h</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

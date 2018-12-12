@@ -755,11 +755,17 @@ ul > li > a:visited {
     height: 36px;
     margin: 0 1em;
   }
-
+  .aboutPage {
+    margin-top: 0 !important;
+  }
 
 
 }
 
+
+.aboutPage {
+  margin-top: 4rem;
+}
 
 footer { 
   display: flex;
@@ -814,6 +820,7 @@ footer h6 {
 footer a {
   color: #f5f5f4;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .menu-mobile {
@@ -823,7 +830,6 @@ footer a {
 .be-avis {
   display: none;
 }
-
 
 
 
@@ -994,6 +1000,7 @@ nav {
 
 .cardLink {
   text-align: left;
+  text-decoration: none;
 }
 @media (max-width: 1310px){
     .productGroup {

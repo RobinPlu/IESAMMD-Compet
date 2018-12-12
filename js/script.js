@@ -30,7 +30,8 @@ $('.coverPage').css({'background-image': 'url(image/' + images[Math.floor(Math.r
             slidesToShow: 1,
             adaptiveHeight: true
         });
-    }
+    };
+});
     //* Debut js pages questionnaires + rejoindre + contact + CGU + CGL + FAQ */
 
 // Page Questionnaires
@@ -142,4 +143,3 @@ $('.coverPage').css({'background-image': 'url(image/' + images[Math.floor(Math.r
     });
 //* fin js pages questionnaires + rejoindre + contact + CGU + CGL + FAQ */
 
-});
